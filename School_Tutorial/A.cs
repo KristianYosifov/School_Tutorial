@@ -8,6 +8,10 @@ namespace School_Tutorial
 {
     internal class A
     {
-
+        void Print()
+        {
+            Print();
+            Console.WriteLine(Console.ReadLine());
+        }
     }
 }
